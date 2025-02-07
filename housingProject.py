@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the Lagos Housing dataset
-data = pd.read_csv("c:/Users/USER/Desktop/myWork/linearRegression/LagosHousingData.csv")
+data = pd.read_csv("LagosHousingData.csv")
 
 # Print the first 5 rows of the dataset
 print(data.head())
